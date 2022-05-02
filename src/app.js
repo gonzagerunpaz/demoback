@@ -2,7 +2,7 @@
 const express = require('express')
 const cors = require('cors')
 const app = express()
-const PORT = process.env.PORT || 3001
+const PORT = process.env.PORT || 3000
 
 /* Esto es para que interprete que la informacion que me llege en el cuerpo del request es json*/
 app.use(express.json())
