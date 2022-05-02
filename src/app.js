@@ -8,12 +8,7 @@ const PORT = process.env.PORT || 3001
 app.use(express.json())
 app.use(cors())
 
-const libros = [{
-    id: 1,
-    nombre: "Matemáticas estás ahí",
-    edicion: 1,
-    activo: true
-}]
+const libros = []
 
 
 
