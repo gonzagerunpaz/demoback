@@ -69,5 +69,5 @@ app.put('/libros', (req, res) => {
 })
 
 app.listen(PORT , () => {
-    console.log(`La aplicacion arranco en el puerto ${PORT} guenisimo`)
+    console.log(`La aplicacion arranco en el puerto ${PORT} Buenisimo`)
 })
