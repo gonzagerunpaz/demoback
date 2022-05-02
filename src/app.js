@@ -49,7 +49,7 @@ app.post('/libros', (req, res) => {
         id: libros.length==0 ? 1 : id + 1,
         nombre: req.body.nombre,
         edicion: req.body.edicion,
-        activo : false
+        activo : true
     }
     libros.push(libro)
     res.status(201).json(libro)
